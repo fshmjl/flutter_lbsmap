@@ -24,10 +24,11 @@
             <meta-data
                 android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
                 android:value="true" />
+            <!-- 设置key -->
             <meta-data
                 android:name="com.amap.api.v2.apikey"
-                android:value="1843b3133fbed62ff754aa6100f46d8e">
-            </meta-data>
+                android:value="${AMAP_KEY}"/>
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
